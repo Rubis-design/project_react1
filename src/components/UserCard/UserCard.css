@@ -1,8 +1,17 @@
+.card{
+  display: flex;
+}
 .card-wrapper {
-    background-color:darkslategray
-    padding: 40px
-  }
+  width: 420px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:darkslategray;
+  padding: 40px;
+}
 
 .card-title {
-    color: white
+    color: white;
+}
+
+.text {
+  color: white;
 }
