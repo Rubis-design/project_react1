@@ -1,3 +1,3 @@
-export function Button({ onClick }) {
-  return <button onClick={onClick}>Click me!</button>;
+export function Button({ onClick, text }) {
+  return <button onClick={() => onClick(text)}>Click me</button>;
 }

@@ -1,8 +1,8 @@
-export function Article(article) {
+export function Article({ title, text }) {
   return (
     <div>
-      <h1>{article.title}</h1>
-      <p>{article.text}</p>
+      <h1>{title}</h1>
+      <p>{text}</p>
     </div>
   );
 }
