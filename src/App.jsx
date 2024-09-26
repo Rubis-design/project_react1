@@ -8,8 +8,8 @@ import { Product } from './components/Product';
 import { Article } from './components/Article';
 
 function App() {
-  const handleClick = () => {
-    console.log('Кнопка была нажата');
+  const handleClick = (text) => {
+    console.log(text);
   };
 
   return (
@@ -19,7 +19,7 @@ function App() {
       <Article title="Заголовок 1" text="Первый текст" />
       <Article title="Заголовок 2" text="Второй текст" />
       <Article title="Заголовок 3" text="Третий текст" /> <br />
-      <Button onClick={handleClick} text="button" />
+      <Button onClick={handleClick} text="Была нажата кнопка" />
     </div>
   );
 }
